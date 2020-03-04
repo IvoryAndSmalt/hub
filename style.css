@@ -1,0 +1,192 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Asap", sans-serif;
+  vertical-align: baseline;
+  background: #003d5b;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*COLORS*/
+/*
+
+blue : #003D5B
+lightblue : #00798C
+pink : #D1495B
+yellow : #EDAE49
+
+*/
+
+#content {
+  color: white;
+}
+
+h1 {
+  margin: 2.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 0.25rem;
+}
+h2 {
+  margin: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.15rem;
+}
+
+.button {
+  padding: 30px 45px;
+  min-width: 75px;
+  border-radius: 5px;
+  text-align: center;
+  width: auto;
+  text-decoration: none;
+  color: white;
+}
+
+.button:nth-child(3n) {
+  background: #d1495b;
+}
+
+.button:nth-child(3n + 1) {
+  background: #edae49;
+}
+
+.button:nth-child(3n + 2) {
+  background: #00798c;
+}
+
+.border {
+  border-bottom: solid 3px rgb(146, 146, 146);
+}
+
+.button:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.inner {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
